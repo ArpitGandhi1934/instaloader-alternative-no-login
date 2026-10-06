@@ -1,0 +1,13 @@
+.env
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# your own exports and downloads; the committed examples live in samples/
+/*.jsonl
+/*.csv
+/out/
+/media/
+.DS_Store
+/watchlist.txt

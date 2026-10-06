@@ -1,0 +1,17 @@
+{
+  "name": "instaloader-alternative-no-login",
+  "version": "1.0.0",
+  "description": "Instaloader-style Instagram scraping without a login: profiles, posts, hashtags, locations and comments to JSONL or CSV via the yugenox/instagram-scraper Apify Actor.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "help": "node instaloader-map.mjs --help"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  }
+}
