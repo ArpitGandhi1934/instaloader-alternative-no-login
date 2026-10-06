@@ -170,7 +170,7 @@ Posts, profiles and comments are public, but usernames, bios, faces and comment 
 
 ## More
 
-- Guides on [yugenox-data.vercel.app](https://yugenox-data.vercel.app): [Instagram scraping without login](https://yugenox-data.vercel.app/instagram/scraper-no-login), [influencer vetting](https://yugenox-data.vercel.app/instagram/influencer-vetting), [export Instagram comments to Excel](https://yugenox-data.vercel.app/instagram/export-comments), [use it in ChatGPT, Claude and Cursor](https://yugenox-data.vercel.app/ai/use-in-chatgpt-claude-cursor), [pricing calculator](https://yugenox-data.vercel.app/pricing-calculator)
+- Guides on [yugenox-data.vercel.app](https://yugenox-data.vercel.app): [Instagram scraping without login](https://yugenox-data.vercel.app/instagram/scraper-no-login), [Instagram Graph API alternative for public data](https://yugenox-data.vercel.app/instagram/graph-api-alternative), [Instagram profile data to CSV](https://yugenox-data.vercel.app/instagram/profile-data-to-csv), [influencer vetting](https://yugenox-data.vercel.app/instagram/influencer-vetting), [export Instagram comments to Excel](https://yugenox-data.vercel.app/instagram/export-comments), [use it in ChatGPT, Claude and Cursor](https://yugenox-data.vercel.app/ai/use-in-chatgpt-claude-cursor), [pricing calculator](https://yugenox-data.vercel.app/pricing-calculator)
 - Examples for every input of the Actor (Python, Node.js, curl, Apify CLI, Google Sheets): [youtube-instagram-scraper-examples](https://github.com/ArpitGandhi1934/youtube-instagram-scraper-examples)
 - Instagram Reels to text in bulk: [instagram-reels-transcript-bulk](https://github.com/ArpitGandhi1934/instagram-reels-transcript-bulk)
 - Comments with most-liked sorting and keyword filters: [instagram-comments-export](https://github.com/ArpitGandhi1934/instagram-comments-export) ([Instagram Comments Scraper][store-comments])
@@ -180,6 +180,7 @@ Posts, profiles and comments are public, but usernames, bios, faces and comment 
 ## Samples, testing and legal
 
 - The sample comes from one run on 2026-10-06 (Actor build 0.2.15) through `instaloader_map.py`; the CSVs were then written from the pseudonymized JSONL with `--from`. Input names checked against the Actor's live input schema the same day. Instaloader facts are from its documentation for version 4.15.3, read on 2026-10-06.
+- Disclosure: the Instagram Scraper Actor these scripts call is built by the author of this repo.
 - Not affiliated with or endorsed by Instagram or Meta, or by the Instaloader project. Instagram is a trademark of Meta Platforms, Inc.
 - MIT licensed. Made by Yugenox Corporation.
 
